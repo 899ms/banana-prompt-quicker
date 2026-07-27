@@ -1,4 +1,28 @@
+---
+
+<img width="400" height="200" alt="33f1d0d49cce103272da3821f66a2820" src="https://github.com/user-attachments/assets/fd909546-1544-4b7d-a7c1-67244d729e4f" />
+
+本项目由 [code0.ai](https://code0.ai?source=claudeworkerproxy) 赞助 —— 一站接入 gpt-image / Gemini / Claude 等主流 AI 模型，稳定不掉线，按量计费即充即用，专为 AI 创作者打造。注册后联系客服可免费领取测试额度，支持企业对接及开票。
+
+<img width="400" height="200" alt="4ca65f573c3d7b3dec0cd829d86262f6" src="https://github.com/user-attachments/assets/9fcffadc-2b95-411d-b778-bf33809f7ef7" />
+
+感谢 [Claude API](https://www.claudeapi.com?source=claudeworkerproxy) 赞助本项目！Claude API 是专注 Claude 模型的官方渠道 API 服务商，基于 Anthropic 官方 Key 与 AWS Bedrock 官方渠道，提供稳定的 Claude Code 与 Agent 应用接入体验，支持 Claude 全系列模型，保留 Tool Use、长上下文等官方能力。服务非逆向、非降智，适合 Claude Code 深度用户、Agent 工程师与企业技术团队使用。通过[专属链接](https://www.claudeapi.com?source=claudeworkerproxy)注册后联系客服，可领取免费测试额度，并支持开票和团队对接。
+
+---
+
+直接商店安装: https://chromewebstore.google.com/detail/banana-prompt-quicker/hgfgfocicepifbolifedlokjkknigoid?authuser=0&hl=zh-CN
+
+---
+
 <img src="https://github.com/glidea/banana-prompt-quicker/blob/main/images/intro.png?raw=true" width="800">
+
+已支持网站：
+* [Gemini 官网](https://gemini.google.com/)
+* [Google AI Studio](https://aistudio.google.com/)
+* [Gemini Enterprise](https://business.gemini.google/)
+* [kokorolab](https://kokorolab.net/zh/home?referral=JBM9AGUV) 👈🏻 金主爸爸。欢迎更多垂类生图场景的应用合作！
+* 任意网站输入框，右键插入！
+* 扩展中...
 
 ## 📸 预览
 
@@ -31,10 +55,10 @@ https://chromewebstore.google.com/detail/banana-prompt-quicker/hgfgfocicepifboli
 
 ### 移动端
 
-推荐使用 **Yandex Browser**，直接从 Chrome Web Store 安装即可：
+推荐使用 **Cronmite**，直接从 Chrome Web Store 安装即可：
 
-1. 下载并安装 Yandex Browser
-2. 在 Yandex Browser 中访问上面的 Chrome Web Store 链接
+1. 下载并安装 Cronmite
+2. 在 Cronmite 中访问上面的 Chrome Web Store 链接
 3. 点击「添加至 Chrome」即可安装
 
 ### 油猴版本
@@ -49,15 +73,45 @@ https://github.com/bxb100/Scripts/raw/refs/heads/main/banana-prompt-quicker/scri
 
 有留意到 `prompt.json` 第三方网站引用，请做来源注明，本项目也可在 README 中提供外链位置
 
-## TDOO
+## 合作
 
-- [ ] 添加更多提示词。按风格推荐穿搭，虚拟旅游，偶像合照...
+**相关垂类生图应用（穿搭，学习...）可联系合作！**
 
-## Release NOTE
+<details>
+<summary><strong>Release NOTE</strong></summary>
 
+### 未来
+  * 添加更多实用性提示词。按风格推荐穿搭，虚拟旅游，偶像合照...
+  * 一键录入 X 等社区所分享的 Prompt
+  * 提示词 Trending
+  * 兼容更多 Banana 渠道
+  * [MAY] Svelte 重构
+  * ...
+
+### V1.6.0
+
+  * 提示词支持添加参考图
+
+### V1.5.0
+
+  * 支持查看最近更新的 Prompt
+  * 支持 NSFW 过滤
+  * 新手引导页
+  * 卸载原因调研页
+
+### V1.4.0
+<img src="https://github.com/glidea/banana-prompt-quicker/blob/main/images/v1.4.0-promo.png?raw=true" width="300">
+
+  * 支持 Gemini Enterprise
+  * 支持 Dynamic Site，你可以在 config.json 中添加 JS selector 适配其它不同渠道！
+  * 支持子分类
+  * 支持编辑自定义提示词
+  * UI/UX 优化
+  * 运营：公告系统、赞助链接、代码重构
+
+### V1.3.0
 <img src="https://github.com/glidea/banana-prompt-quicker/blob/main/images/v1.3.0-promo.png?raw=true" width="300">
 
-* V1.3.0
   * 支持在任意网站通过右键菜单进入 Prompt 画廊，插入任意输入框。🍌 Anywhere!
   * 支持灵光模式，引导完成生图需求（"选择比填空容易"）
   * Gemini 再次进入保留页面状态
@@ -65,8 +119,10 @@ https://github.com/bxb100/Scripts/raw/refs/heads/main/banana-prompt-quicker/scri
   * 插入提示词后，光标默认在末尾，便于补充需求
   * 增加随机排序，多一点新鲜感，多一点随手一试
 
-* V1.2.1
+### V1.2.1
   * 修复 Gemini 官网按钮失效，并支持远程热修复
+
+</details>
 
 
 ## 🤝 贡献提示词
@@ -98,6 +154,11 @@ https://github.com/bxb100/Scripts/raw/refs/heads/main/banana-prompt-quicker/scri
       <img src="https://github.com/glidea/banana-prompt-quicker/blob/main/images/glidea.png?raw=true" width="250">
       <br>
       <strong><a href="https://glidea.zenfeed.xyz/">我的其它项目</a></strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/glidea/banana-prompt-quicker/blob/main/images/sponsor.png?raw=true" width="300">
+      <br>
+      <strong>🧋请喝杯奶茶</strong>
     </td>
   </tr>
   <tr>

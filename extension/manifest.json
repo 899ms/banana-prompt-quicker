@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Banana Prompt Quicker",
-    "version": "1.3.0",
+    "version": "1.6.0",
     "description": "Prompts quicker is ALL you 🍌 need",
     "icons": {
         "16": "icon16.png",
@@ -13,7 +13,8 @@
         "contextMenus"
     ],
     "host_permissions": [
-        "https://raw.githubusercontent.com/*"
+        "https://raw.githubusercontent.com/*",
+        "https://cdn.jsdelivr.net/*"
     ],
     "background": {
         "service_worker": "background.js"
@@ -24,8 +25,23 @@
                 "<all_urls>"
             ],
             "js": [
-                "prompts.js",
-                "modal.js",
+                "lib/dom.js",
+                "lib/utils.js",
+                "lib/store.js",
+                "services/fetcher.js",
+                "services/config.js",
+                "services/prompts.js",
+                "sites/base.js",
+                "sites/ai_studio.js",
+                "sites/gemini.js",
+                "sites/gemini_enterprise.js",
+                "sites/dynamic.js",
+                "ui/search.js",
+                "ui/card.js",
+                "ui/announcement.js",
+                "ui/prompt_form.js",
+                "ui/pagination.js",
+                "ui/modal.js",
                 "content.js"
             ],
             "run_at": "document_idle"
